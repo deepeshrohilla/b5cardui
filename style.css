@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Cards */
+
+.card {
+    overflow: hidden;
+    width: 20rem;
+}
+
+
+/* Button */
+
+.btn-bg {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.btn-bg:hover {
+    color: #fff;
+}
+
+.btn-bg:focus {
+    box-shadow: 0 0 0 0.25rem #ff00003f;
+}
